@@ -4,7 +4,7 @@ onsite: true
 
 experience_level:
   internship: false
-  entry: true
+  entry: false
   associate: true
   mid_senior_level: true
   director: false
@@ -12,9 +12,9 @@ experience_level:
 
 job_types:
   full_time: true
-  contract: false
-  part_time: false
-  temporary: true
+  contract: true
+  part_time: true
+  temporary: false
   internship: false
   other: false
   volunteer: true
@@ -22,22 +22,22 @@ job_types:
 date:
   all_time: false
   month: false
-  week: false
+  week: true
   24_hours: true
 
 positions:
-  - Software engineer
+  - Manager
+  - Director
 
 locations:
-  - Germany
+  - Virginia
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+
 
 title_blacklist:
   - word1
